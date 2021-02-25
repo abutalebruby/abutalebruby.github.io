@@ -11,22 +11,27 @@
 </head>
 <body>
 
-    <!-- Navbar-->
-    <ul>
-            <li style="float: left;"><a href="home.html">my portfolio</a></li>
-            <li><a href="index.html">back</a></li>
-            <li><a href="workExperience.html">work experience</a></li>
-            <li><a href="softwareDevelopment.html">software dev</a></li>
-            <li><a href="graphicDesign.html">graphic design</a></li>
-        </ul>
+  <!-- Navbar -->
+  <div class="topnav" id="myTopnav">
+      <a href="home.html" style="float:left;"><img src="image/ramonogram.svg" width=80px; height auto;></a>
+      <!--<a href="contact.html">contact</a>-->
+      <a href="home.html">back</a>
+      <a href="workExperience.html">work experience</a>
+      <a href="graphicDesign.html">graphic design</a>
+      <a href="softwareDevelopment.html">software dev</a>
+      <a href="javascript:void(0);" class="icon" onclick="hideNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
     <hr>
     <!-- Header -->
-    <h1 style="font-family:'abril fatface'; color:#FBB03B;letter-spacing: 7px; margin-left: 75px;">Software<span style="color:#777">Development</span></h1>
+    <h1 style="font-family:'abril fatface'; font-size:3vw; color:#FBB03B;letter-spacing: 7px; margin-left: 75px;">Software<span style="color:#383838">Development</span></h1>
     <p style="margin-left: 75px">click images for github repository</p>
 
     <!-- Gallery -->
     <!--Pocket Barista-->
     <div class="row">
+  <h3>Pocket Barista iOS Application</h3>
   <div class="column">
     <div class="content">
         <a href="https://github.com/abutalebruby/pocketBarista" target="_blank"><img src="image/pbIOS1.png" alt="coffee" style="width:100%"></a>
@@ -51,6 +56,7 @@
     </div>
     <!--WalletCheck-->
 <div class="row">
+  <h3>WalletCheck Angular Web Application</h3>
     <div class="column">
     <div class="content">
         <a href="https://github.com/andrewtgomez96/Wallet-Check"target="_blank"><img src="image/walletCheck1.png" alt="news" style="width:100%"></a>
@@ -76,6 +82,7 @@
 </div>
     <!--Compiler-->
 <div class="row">
+  <h3>Compiler in C++</h3>
     <div class="column">
     <div class="content">
         <a href="https://github.com/Mikey707z/CPSC323_2018Compiler"target="_blank"><img src="image/compiler1.png" alt="compiler" style="width:100%"></a>

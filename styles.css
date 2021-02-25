@@ -12,6 +12,7 @@
 }
 .card-body {
   background-color: #faf2e5;
+  font-size:2vw;
 }
 .card-title {
   font-weight: bold;
@@ -19,9 +20,14 @@
 .row no-gutters {
     background-color: #faf2e5;
 }
-
+h1 {
+  font-size:4vw;
+}
+h2 {
+  font-size:3vw;
+}
 body {
-        font: 18px 'abel', sans-serif;
+        font: 2vw 'abel', sans-serif;
         line-height: 1.8;
         color: #383838;
         margin: 5%;
@@ -29,44 +35,10 @@ body {
         align-content: center;
     }
     p{
-        font-size: 20px;
-    }
-    ul{
-        padding-top: 0px;
-        padding-bottom: 15px;
-        border: 0;
-        border-radius: 0;
-        margin-bottom: 0;
-        font-size: 12px;
-        letter-spacing: 5px;
-        list-style-type: none;
-        margin: 0;
-        overflow: hidden;
-        background-color: #777;
-        margin: 25%, 5%;
+        font-size: 2vw;
+        margin-top: 0px;
     }
 
-    li {
-        padding-top: 25px;
-        float: right;
-        margin-right: 20px;
-    }
-    li a {
-        color: #fff;
-        font-size: 18px;
-        display: inline-block;
-        padding: 10px;
-        font-family: "abel";
-        text-align: center;
-        text-decoration: none;
-    }
-    li a img {
-        padding: 0px;
-    }
-    li a:hover{
-        background-color: #FBB03B;
-        color: #fff;
-    }
     .center {
         display: block;
         margin-left: auto;
@@ -74,14 +46,14 @@ body {
         width: 50%;
     }
     div.gallery {
-        background-color: #777;
+        background-color: #383838;
         border-bottom: 1px solid #FBB03B;
         float: left;
         width: 100%;
     }
     div.gallery:hover{
         background-color: #e4e4e4;
-        color: #777;
+        color: #383838;
     }
     div.gallery img{
         padding-left: 40px;
@@ -98,7 +70,7 @@ body {
         width:50%;
     }
     div.desc:hover{
-        color: #777;
+        color: #383838;
     }
 
 
@@ -114,6 +86,39 @@ body {
     }
 
     /* nav bar */
+/* bottom nav */
+.bottomnav {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  margin: 25%, 5%;
+  padding-top: 25px;
+  float: right;
+  margin-right: 20px;
+  color: #777;
+}
+
+.bottomnav a{
+  color: #777;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px;
+  font-family: "abel";
+  text-align: center;
+  text-decoration: none;
+}
+
+.bottomnav a:hover{
+  background-color: #FBB03B;
+  color: #fff;
+}
 /* responsive navbar */
 .topnav {
   background-color: #faf2e5;
@@ -207,7 +212,7 @@ body {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -216,7 +221,7 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -229,7 +234,6 @@ body {
     text-align: left;
   }
 }
-
 
 /* nav bar */
 
@@ -254,7 +258,7 @@ li {
 }
 
 li a {
-    color: #777;
+    color: #383838;
     font-size: 18px;
     display: inline-block;
     padding: 10px;
@@ -355,6 +359,6 @@ h2 {
 /* Content */
 .content {
     padding: 10px;
-    color: #777;
+    color: #383838;
     border: 2px solid #fff;
 }

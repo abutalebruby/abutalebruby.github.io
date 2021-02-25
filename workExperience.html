@@ -11,25 +11,46 @@
 </head>
 <body>
 
-    <!-- Navbar-->
-    <ul>
-            <li style="float: left;"><a href="home.html">my portfolio</a></li>
-            <li><a href="index.html">back</a></li>
-            <li><a href="workExperience.html">work experience</a></li>
-            <li><a href="softwareDevelopment.html">software dev</a></li>
-            <li><a href="graphicDesign.html">graphic design</a></li>
-        </ul>
+  <!-- Navbar -->
+  <div class="topnav" id="myTopnav">
+      <a href="home.html" style="float:left;"><img src="image/ramonogram.svg" width=80px; height auto;></a>
+      <!--<a href="contact.html">contact</a>-->
+      <a href="home.html">back</a>
+      <a href="workExperience.html">work experience</a>
+      <a href="graphicDesign.html">graphic design</a>
+      <a href="softwareDevelopment.html">software dev</a>
+      <a href="javascript:void(0);" class="icon" onclick="hideNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
     <hr>
     <!-- Header -->
-    <h1 style="font-family:'abril fatface'; color:#FBB03B;letter-spacing: 7px; margin-left: 75px;">Work<span style="color:#777">Experience</span></h1>
+    <h1 style="font-family:'abril fatface'; font-size:3vw; color:#FBB03B;letter-spacing: 7px; margin-left: 75px;">Work<span style="color:#383838">Experience</span></h1>
 
-    <img style="width:80%" src="image/rubyResume.png">
+    <!-- Gallery -->
+    <!--Technical Skills-->
+    <dl class="row">
+      <h3>Technical Skills</h3>
+        <dt class="col-sm-3">Languages:</dt>
+        <dd class="col-sm-9">Java, Python, Rest APIs, C++, SQL, Algol, AngularJS, HTML, CSS, Javascript, Node.</dd>
+        <dt class="col-sm-3 text-truncate">Programs:</dt>
+        <dd class="col-sm-9">Jenkins, Visual Studio, GitHub, Adobe InDesign, Photoshop, Illustrator</dd>
+    </dl>
 
-   <ul>
-            <li><a href="https://vsco.co/rubyyaa/images/1">vsco</a></li>
-            <li><a href="https://github.com/abutalebruby">github</a></li>
-            <li><a href="https://www.linkedin.com/in/ruby-abutaleb">linkedin</a></li>
-    </ul>
+  <!--Leadership/Certifications-->
+  <dl class="row">
+    <h3>Leadership/Certifications</h3>
+      <dt class="col-sm-3">Certified Scrum Master</dt>
+      <dd class="col-sm-9">Leads standups/sprint reviews/planning meetings</dd>
+  </dl>
+
+
+<!-- BottomNav -->
+<div class="bottomnav" >
+    <a href="https://www.linkedin.com/in/ruby-abutaleb">linkedin</a>
+    <a href="https://github.com/abutalebruby">github</a>
+    <a href="https://vsco.co/rubyyaa/images/1">vsco</a>
+</div>
 
 </body>
 </html>
